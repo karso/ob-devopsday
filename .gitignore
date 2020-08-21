@@ -1,0 +1,5 @@
+.idea/
+.ini
+.DS_Store
+obmovies/Pipfile*
+obmovies/.ini

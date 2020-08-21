@@ -9,22 +9,23 @@ required for ob's Movies database.
 Greetings Earthling! You have been selected to test your skills among the Team Awesome,
 **DevOps** :)
 
-This challenge contains a directory - `ob-devopsday/obmovies` - with a Python project and a mongoDB dataset dump.
-The package dependencies for Python are resolved using pip. The project was built using Flask framework. The application 
-has some errors/omissions that are purposefully made. Once you have solved the connection issue run ``pytest`` to confirm 
+This challenge contains a directory - `ob-devopsday/obmovies` - with a Python project and a mongoDB dataset dump 
+(available on the releases section of the repo). The package dependencies for Python are resolved using pip. The project 
+was built using Flask framework. The application has some errors/omissions that are purposefully made. Once you have 
+solved the connection issue run ``pytest`` to confirm 
 connectivity.
 
 #### **Challenges**
 1. Solve the following tickets/TODOs in `db.py`: 
-   1. Paging and 
-   1. Faceted Search. 
-1. Containerize the application.
-1. Deploy into a Kubernetes solution of your choice.
+   1. Paging,
+   1. Faceted Search and 
+   1. User Management.
+1. Containerize obmovies webapp and deploy into a Kubernetes solution/tool of your choice.
+1. Use helm chart to deploy the webapp. 
 
 ##### **Brownie points:**
-* Solve "Ticket: User Management" in `db.py`
-* Use helm chart to deploy the application.
-* Codify the creation of your cluster
+* Create a CICD pipeline to build the app and deploy to your cluster.
+* Codify the creation of your cluster.
 
  Movies Application Structure
 --
@@ -47,8 +48,8 @@ so will most likely result in the frontend application failing to validate some 
 #### MongoDB Atlas and Compass
 
 Mongo Atlas offers a free tiered option that provides sample datasets. You will be using the ``mflix`` collection for 
-this challenge. Optional: If you are interested in running a local mongoDB use the ``dbdump.tar.gz`` included in the 
-``dumps`` directory.
+this challenge. Optional: If you are interested in running a local mongoDB use the ``mongod-sampledata.gz`` available on the 
+Releases tab in git
 
 Sign up for a free-tiered Mongo Atlas account. Create a project and a cluster with a name of your choosing. During the 
 creation of the cluster select "Load Sample Dataset". You will need to whitelist your IP address to gain access.
@@ -109,4 +110,5 @@ Each ticket will contain the command to run that ticket's specific unit tests.
 
 ## When you are finished
 - Please send your solution as a zipped package to Tech-challenge@orderbird.com
+- Include documentation on how to run your the your application and the Kubernetes cluster solution/tool used.   
 - also please don't fork this repo as other candidates could then start build on top of your solution ;-)

@@ -109,6 +109,6 @@ Each ticket will contain the command to run that ticket's specific unit tests.
 
 
 ## When you are finished
-- Please send your solution as a zipped package to Tech-challenge@orderbird.com
+- Please send your solution to Tech-challenge@orderbird.com
 - Include documentation on how to run your the your application and the Kubernetes cluster solution/tool used.   
 - also please don't fork this repo as other candidates could then start build on top of your solution ;-)

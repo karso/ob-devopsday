@@ -21,7 +21,7 @@ connectivity.
    1. Faceted Search and 
    1. User Management.
 1. Containerize obmovies webapp and deploy into a Kubernetes solution/tool of your choice.
-1. Use helm chart to deploy the webapp. 
+1. Use helm chart or daemonset templates to deploy the webapp.
 
 ##### **Brownie points:**
 * Create a CICD pipeline to build the app and deploy to your cluster.
@@ -110,5 +110,5 @@ Each ticket will contain the command to run that ticket's specific unit tests.
 
 ## When you are finished
 - Please send your solution to Tech-challenge@orderbird.com
-- Include documentation on how to run your the your application and the Kubernetes cluster solution/tool used.   
+- Include documentation on how to run the application and the Kubernetes cluster solution/tool used.
 - also please don't fork this repo as other candidates could then start build on top of your solution ;-)

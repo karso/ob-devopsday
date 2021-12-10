@@ -112,3 +112,17 @@ Each ticket will contain the command to run that ticket's specific unit tests.
 - You can submit your solution to Tech-challenge@orderbird.com
 - Update `README.MD` so we know how to run your solution and the Kubernetes cluster solution/tool we should use.
 - Leave the git history in tact and don't fork this repo as other candidates could then start building on your solution :wink:
+
+## Everything below this line is edited by Soumitra
+#### Prerequisites
+- Docker version 18.09.7
+- [minikube](https://minikube.sigs.k8s.io/docs/) v1.17.0 running k8s 1.18
+
+#### Build
+- Go to dir "ob-devopsday/obmovies/"
+- Execute: $docker-compose up
+- Exit: press Ctrl+C
+
+#### Deploy (on minikube)
+- Go to Dir "ob-devopsday/obmovies/manifests"
+- kubectl create -f obmovies.yaml
